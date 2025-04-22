@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container">
       <Link className="navbar-brand d-flex align-items-center gap-2 fw-bold" to="/">
   <img
-    src="../public/cronic.jpg"
+    src="https://cdn-icons-png.flaticon.com/512/1484/1484849.png"
     alt="Chronicare Logo"
     width="35"
     height="35"
@@ -23,6 +23,7 @@ const Navbar = () => {
   />
   Chronicare
 </Link>
+
 
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
