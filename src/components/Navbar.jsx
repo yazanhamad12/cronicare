@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container">
       <Link className="navbar-brand d-flex align-items-center gap-2 fw-bold" to="/">
   <img
-    src="https://cdn-icons-png.flaticon.com/512/1484/1484849.png"
+    src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
     alt="Chronicare Logo"
     width="35"
     height="35"
