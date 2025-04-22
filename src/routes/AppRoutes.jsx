@@ -12,6 +12,7 @@ import Messages from '../pages/Messages';
 import Profile from '../pages/Profile';
 import LandingPage from '../pages/LandingPage';
 import About from '../pages/About';
+import InsulinCalculator from '../pages/InsulinCalculatorCarbs';
 
 const AppRoutes = () => {
   const { token } = useAuth();
@@ -53,10 +54,12 @@ const AppRoutes = () => {
   path="/profile"
   element={token ? <Profile /> : <Navigate to="/login" />}
 />
+<Route path="/insulin" element={<InsulinCalculator />} />
 
 <Route path="/about" element={<About />} />
       <Route path="*" element={<h2 className="text-center mt-5">404 - Page Not Found</h2>} />
     </Routes>
+    
   );
 };
 

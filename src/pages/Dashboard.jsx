@@ -76,6 +76,11 @@ const Dashboard = () => {
         <Link to="/medications" className="btn btn-outline-warning btn-lg">💊 Daily Medications</Link>
         <Link to="/contact" className="btn btn-outline-danger btn-lg">📩 Contact Doctor</Link>
         <Link to="/messages" className="btn btn-outline-dark btn-lg">📂 My Messages</Link>
+        <Link to="/insulin" className="btn btn-outline-danger btn-lg">
+  🧮 Insulin Calculator
+</Link>
+
+
       </div>
     </div>
   );
